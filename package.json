@@ -1,15 +1,15 @@
 {
-  "name": "MI Dynamics",
+  "name": "ProjectRTC",
   "version": "0.4.0",
-  "author": "Muhammad Zeeshan",
+  "author": "Pierre Chabardes <pierre@chabardes.net>",
   "description": "a webRTC live streaming server",
- "scripts": {
-  "start": "supervisor server.js"
-},
-"main": "server.js",
+  "scripts": {
+    "start": "forever start app.js",
+    "stop": "forever stopall"
+  },
   "repository": {
     "type": "git", 
-    "url": ""
+    "url": "https://github.com/pchab/ProjectRTC.git"
   },
   "dependencies": {
     "express": "3.2.5",
