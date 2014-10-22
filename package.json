@@ -1,0 +1,20 @@
+{
+  "name": "MI Dynamics",
+  "version": "0.4.0",
+  "author": "Muhammad Zeeshan",
+  "description": "a webRTC live streaming server",
+ "scripts": {
+  "start": "supervisor server.js"
+},
+"main": "server.js",
+  "repository": {
+    "type": "git", 
+    "url": ""
+  },
+  "dependencies": {
+    "express": "3.2.5",
+    "ejs": "*",
+    "socket.io": "~0.9",
+    "forever": "0.10.8"
+  }
+}
